@@ -1,0 +1,200 @@
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#nav {
+    padding: 30px
+}
+
+#nav a {
+    font-weight: 700;
+    color: #2c3e50
+}
+
+#nav a.router-link-exact-active {
+    color: #42b983
+}
+
+@media screen and (min-width:750px) {
+    #app-750[data-v-0e0e573c] {
+        width: 750px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (min-width:750px) {
+    #app-1440[data-v-7ba18e6c] {
+        width: 1200px;
+        margin: 0 auto
+    }
+}
+
+body {
+    height: 100%;
+    background-color: #f7f8fa;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif
+}
+
+label {
+    font-weight: 700
+}
+
+html {
+    box-sizing: border-box
+}
+
+#app,
+html {
+    height: 100%
+}
+
+body,
+dd,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+liul,
+ol,
+p {
+    margin: 0
+}
+
+liul,
+ol {
+    padding: 0
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+a:active,
+a:focus {
+    outline: none
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none
+}
+
+div:focus {
+    outline: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+.common-channels .van-grid-item__content {
+    padding: 15px 10px
+}
+
+.other-channels .van-cell {
+    line-height: 0
+}
+
+/* @font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../static/fonts/Montserrat-Regular.34de1239.ttf) format("truetype");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../../static/fonts/Montserrat-Medium.aca6287f.ttf) format("truetype");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../../static/fonts/Montserrat-SemiBold.7ffeec2b.ttf) format("truetype");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../static/fonts/Montserrat-Bold.d14ad103.ttf) format("truetype");
+    font-display: swap
+} */
+
+::-webkit-scrollbar-track-piece {
+    background: #d3dce6
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #99a9bf;
+    border-radius: 20px
+}
+
+.repayGuide .van-step__line {
+    top: 33px;
+    height: 90%
+}
+
+.repayGuide .short .van-step__line {
+    top: 33px;
+    height: 70%
+}
+
+.repayGuide .short2 .van-step__line {
+    top: 33px;
+    height: 75%
+}
+
+.repayGuide .long .van-step__line {
+    top: 33px;
+    height: 95.5%
+}
+
+.repayGuide .long2 .van-step__line {
+    top: 33px;
+    height: 95%
+}
+
+.repayGuide .van-step--vertical:not(:last-child):after {
+    border-bottom-width: 0
+}
+
+.van-toast__text {
+    word-break: break-word
+}
+
+.svg-icon[data-v-268d7e50] {
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    overflow: hidden
+}
+
+.svg-external-icon[data-v-268d7e50] {
+    background-color: currentColor;
+    -webkit-mask-size: cover!important;
+    mask-size: cover!important;
+    display: inline-block
+}

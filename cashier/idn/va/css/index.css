@@ -1,0 +1,186 @@
+.index-page.container {
+    padding-top: 20px
+}
+
+.index-page .header {
+    padding: 0 24px;
+    color: #fff;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.index-page .header,
+.index-page .header .language {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.index-page .header .language span {
+    padding: 0 10px
+}
+
+.index-page .card-info {
+    padding: 33px 24px;
+    color: #fff;
+    text-align: center
+}
+
+.index-page .card-info .text {
+    margin: 4px 0;
+    color: rgba(255, 255, 255, .7);
+    line-height: 22px
+}
+
+.index-page .card-footer-info,
+.index-page .card-info .total-number {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.index-page .card-info .total-number {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.index-page .card-info .total-number .number {
+    margin-left: 10px;
+    font-size: 36px;
+    font-family: effrafonabold
+}
+
+.index-page .card-footer-info {
+    padding: 13px 24px;
+    color: rgba(255, 255, 255, .7);
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.index-page .card-footer-info .key {
+    line-height: 12px
+}
+
+.index-page .card-footer-info .value {
+    margin-top: 2px;
+    line-height: 17px
+}
+
+.index-page .list-container {
+    min-height: calc(100vh - 234.4px);
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+
+.index-page .list-container .list-item .menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 24px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.index-page .list-container .list-item .menu.active {
+    background-color: #f0f0f0
+}
+
+.index-page .list-container .list-item .menu.active .arrow {
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg)
+}
+
+.index-page .list-container .list-item .menu .title {
+    margin-left: 12px;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    font-size: 16px
+}
+
+.index-page .list-container .list-item>.halfpxline {
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.index-page .list-container .list-item .menu+.menu-items {
+    display: none
+}
+
+.index-page .list-container .list-item .menu.active+.menu-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* border-bottom: 6px solid #ebebeb */
+}
+
+.index-page .list-container .list-item .menu-items,
+.index-page .list-container .list-item .menu-items .item .item-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.index-page .list-container .list-item .menu-items {
+    padding: 0 24px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.index-page .list-container .list-item .menu-items>a {
+    width: 50%;
+    display: inline-block;
+    color: #888
+}
+
+.index-page .list-container .list-item .menu-items .item .item-content {
+    padding: 16px 0
+}
+
+.index-page .list-container .list-item .menu-items .item img {
+    margin-right: 10px;
+    width:66px;
+    height:46px;
+    border-radius: 6px;
+    object-fit:contain;
+}
+.index-page .list-container .list-item .menu-items .item button {   
+    min-width: 90px;
+    height:46px;
+    border-radius: 6px;
+    padding:4px 10px;
+    background-color: #ffffff;  
+    cursor: pointer; 
+}
+
+.index-page .list-container .list-item .menu-items .halfpxline {
+    background-color: rgba(0, 0, 0, .1)
+}

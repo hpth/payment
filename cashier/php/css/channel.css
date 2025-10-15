@@ -1,0 +1,106 @@
+.bank-e-wallets[data-v-cfaf8ef4] {
+    color: #fff
+}
+
+.temp-white[data-v-cfaf8ef4] {
+    color: #303030
+}
+
+.cashier-note[data-v-cfaf8ef4] {
+    padding: 0 25px;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: Montserrat-Regular
+}
+
+.cashier-note-bold[data-v-cfaf8ef4] {
+    font-weight: 700;
+    font-family: Montserrat-Bold
+}
+
+.line[data-v-cfaf8ef4] {
+    margin: 9px 17px 7px;
+    height: 1px;
+    background: #fff
+}
+
+.line-black[data-v-cfaf8ef4] {
+    background: #303030
+}
+
+.cashier-channels[data-v-cfaf8ef4] {
+    margin: 0 4.2% 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.cashier-channels .channel[data-v-cfaf8ef4] {
+    width: 18.9%
+}
+
+.cashier-all-btn[data-v-cfaf8ef4],
+.cashier-less-btn[data-v-cfaf8ef4] {
+    font-family: Montserrat-SemiBold;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center
+}
+
+.cashier-all-btn[data-v-cfaf8ef4] {
+    padding: 20px 0 57px
+}
+
+.cashier-less-btn[data-v-cfaf8ef4] {
+    padding: 25px 0 31px
+}
+
+.channel-moudle-item[data-v-cfaf8ef4] {
+    margin-top: 20px
+}
+
+.channel-moudle-item-title[data-v-cfaf8ef4] {
+    margin-left: 4.4%;
+    font-family: Montserrat-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.channel-moudle-item-content[data-v-cfaf8ef4] {
+    width: 367px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.channel-moudle-item-content .channel[data-v-cfaf8ef4] {
+    margin-top: 11px
+}
+
+.channel-moudle-item-content .channel[data-v-cfaf8ef4]:not(:nth-child(3n)) {
+    margin-right: 11px
+}
+
+.channel-moudle-item-content .channel[data-v-cfaf8ef4]:last-child {
+    margin-right: auto
+}

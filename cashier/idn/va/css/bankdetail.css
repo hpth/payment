@@ -1,0 +1,200 @@
+.bank-detail-page.container {
+    padding-top: 20px
+}
+
+.bank-detail-page .header {
+    padding: 0 24px;
+    color: #fff;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.bank-detail-page .header,
+.bank-detail-page .header .language {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.bank-detail-page .header .language span {
+    padding: 0 10px
+}
+
+.bank-detail-page .main-content {
+    padding: 23px 24px;
+    text-align: center
+}
+
+.bank-detail-page .main-content>div {
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.bank-detail-page .main-content .countdown-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 39px;
+    margin-bottom: 19px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.bank-detail-page .main-content .countdown-container>div {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: effrafonabold;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#797979), to(#444));
+    background-image: linear-gradient(to bottom, #797979, #444)
+}
+
+.bank-detail-page .main-content .countdown-container .icon {
+    width: 26px;
+    color: #444;
+    background-image: none
+}
+
+.bank-detail-page .main-content .pay-no-name {
+    line-height: 22px;
+    color: #666;
+    font-size: 12px
+}
+
+.bank-detail-page .main-content .pay-no {
+    /* margin-bottom: 23px; */
+    margin-bottom: 40px;
+    line-height: 32px;
+    color: #333;
+    font-size: 26px;
+    font-family: effrafonabold
+}
+
+.bank-detail-page .main-content .infos {
+    padding: 20px 0;
+    background-color: #f0f0f0
+}
+
+.bank-detail-page .main-content .infos .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 4px 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.bank-detail-page .main-content .infos .item:nth-last-child(1) {
+    margin: 8px 0
+}
+
+.bank-detail-page .main-content .infos .key {
+    width: 35%;
+    text-align: right;
+    color: #888;
+    font-size: 12px
+}
+
+.bank-detail-page .main-content .infos .value {
+    padding-left: 8px;
+    color: #333;
+    font-size: 14px
+}
+
+.bank-detail-page .main-content .infos .value.number {
+    color: #e23d0e;
+    font-size: 20px;
+    line-height: 20px
+}
+
+.bank-detail-page .main-content .copy-container {
+    margin-top: 10px;
+    padding: 20px 30px
+}
+
+.bank-detail-page .main-content .copy-container .text {
+    line-height: 22px;
+    color: #333;
+    font-size: 16px
+}
+
+.bank-detail-page .main-content .copy-container button {
+    width: 100%;
+    height: 48px;
+    margin-top: 18px;
+    border-radius: 6px;
+    background-color: #0047cc;
+    color: #fff;
+    font-size: 14px;
+    outline: 0;
+    border: 0
+}
+
+.bank-detail-page .main-content .list-container {
+    color: #fff;
+    background-color: transparent
+}
+
+.bank-detail-page .main-content .list-container .list-item .menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 17px 0;
+    line-height: 19px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.bank-detail-page .main-content .list-container .menu+.desc {
+    display: none
+}
+
+.bank-detail-page .main-content .list-container .menu.active+.desc {
+    display: block
+}
+
+.bank-detail-page .main-content .list-container .menu.active img {
+    -webkit-transform: rotateZ(90deg) translate(0, 7px);
+    transform: rotateZ(90deg) translate(0, 7px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.bank-detail-page .main-content .list-container .desc {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #666;
+    text-align: left;
+    padding: 15px 30px
+}
+
+.bank-detail-page .main-content .list-container .halfpxline {
+    background-color: rgba(255, 255, 255, .1)
+}

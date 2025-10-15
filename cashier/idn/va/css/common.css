@@ -1,0 +1,25 @@
+ /* 轻提示 */
+ .toast_box {
+    /* width: 100%; */
+    position: sticky; 
+    bottom: 90%;
+    /* left: 740px; */
+    left: 50%;
+    /* justify-content: center; */
+    z-index: 200;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+
+  .toast_box p {
+    box-sizing: border-box;
+    padding: 0.625rem 1.25rem;/* 10px 20px */
+    width: max-content;
+    /* 提示框的背景色 #707070*/
+    background: #595959;
+    color: #fff;
+    font-size: 0.875rem;/* 14px */
+    text-align: center;
+    border-radius: 0.375rem;/* 6px */
+    opacity: 0.8;
+  }

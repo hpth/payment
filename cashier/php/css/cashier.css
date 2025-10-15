@@ -1,0 +1,161 @@
+.qrph-container[data-v-ff6d858e] {
+    min-height: 100%;
+    background: -webkit-linear-gradient(top, #105aab 35.8%, #213952 163.12%);
+    background: linear-gradient(180deg, #105aab 35.8%, #213952 163.12%)
+}
+
+.cashier-qrph[data-v-ff6d858e] {
+    position: relative;
+    min-height: 100%;
+    font-weight: 400;
+    font-family: Montserrat-Regular
+}
+
+.bg-shape-1[data-v-ff6d858e] {
+    position: absolute;
+    top: 88px;
+    left: 0
+}
+
+.bg-shape-2[data-v-ff6d858e] {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.cashier-qrph-top[data-v-ff6d858e] {
+    position: relative;
+    background: #f8ffff;
+    border-radius: 0 0 40.6% 40.6%
+}
+
+.cashier-qrph-content[data-v-ff6d858e] {
+    position: relative;
+    z-index: 1
+}
+
+.nav[data-v-ff6d858e] {
+    padding: 24px 20px 0 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    justify-items: center
+}
+
+.nav .nav-title[data-v-ff6d858e] {
+    position: relative;
+    top: 7px;
+    font-weight: 600;
+    font-family: Montserrat-SemiBold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #303030
+}
+
+.nav .nav-logo[data-v-ff6d858e] {
+    text-align: center
+}
+
+.nav .logo-text[data-v-ff6d858e] {
+    font-family: Montserrat-SemiBold;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1d3a71
+}
+
+.color-blue[data-v-ff6d858e] {
+    color: #1a5f9b;
+    font-family: Montserrat-SemiBold
+}
+
+.info[data-v-ff6d858e] {
+    color: #303030
+}
+
+.info .info-customer[data-v-ff6d858e],
+.info .info-pay[data-v-ff6d858e] {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.info .info-pay[data-v-ff6d858e] {
+    margin-top: 20px
+}
+
+.info .info-customer[data-v-ff6d858e] {
+    margin-top: 5px
+}
+
+.info .info-amount[data-v-ff6d858e] {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: Montserrat-Medium
+}
+
+.info .info-amount .amount-num[data-v-ff6d858e] {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1a5f9b;
+    font-family: Montserrat-Bold
+}
+
+.info .info-qrph[data-v-ff6d858e] {
+    margin-top: 10px;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center
+}
+
+.info .info-qrph .img-gcash-logo[data-v-ff6d858e] {
+    position: relative;
+    top: 7px
+}
+
+.info .info-method[data-v-ff6d858e] {
+    margin-top: 5px;
+    padding-bottom: 69px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center
+}
+
+.info .info-method .color-black[data-v-ff6d858e] {
+    font-weight: 600;
+    font-family: Montserrat-SemiBold
+}
+
+.cashier-qrcode[data-v-ff6d858e] {
+    margin: -55px auto 0;
+    width: 309px;
+    height: 309px;
+    background: #fff;
+    -webkit-filter: drop-shadow(0 -3px 4px rgba(0, 0, 0, .25)) drop-shadow(0 5px 4px rgba(0, 0, 0, .25));
+    filter: drop-shadow(0 -3px 4px rgba(0, 0, 0, .25)) drop-shadow(0 5px 4px rgba(0, 0, 0, .25));
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
