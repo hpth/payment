@@ -1,30 +1,54 @@
-// configManager.js
 function getConfig() {
     const origin = location.origin;
-    const env = origin == 'https://cashier.haipay.top' ? 'prod' : origin == 'https://www.payment-cashier.com' ? 'prod': origin == 'https://cashier.fivezeroone.tech' ? 'prod': origin == 'https://cashier.gcash.tech' ? 'prod' : origin.indexOf('uat') > -1 ? 'test' : 'dev'
     
-    let baseURL = '';
-   if(env=='dev'){
-      baseURL='http://192.168.1.101:8095'//开发环境
+    const ENV_CONFIG = {
+        prod: {
+            matchOrigins: [
+                'https://cashier.haipay.top',
+                'https://www.payment-cashier.com',
+                'https://cashier.fivezeroone.tech',
+                'https://cashier.gcash.tech'
+            ],
+            baseURLMap: {
+                'https://www.payment-cashier.com': 'https://checkout.payment-cashier.com',
+                'https://cashier.fivezeroone.tech': 'https://checkout.fivezeroone.top',
+                'https://cashier.gcash.tech': 'https://checkout.gcash.tech',
+                default: 'https://checkout.haipay.top'
+            }
+        },
+        test: {
+            matchRule: (origin) => origin.indexOf('uat') > -1,
+            baseURLMap: {
+                'https://uat.payment-cashier.com': 'https://uat-checkout.payment-cashier.com',
+                'https://uat-cashier.fivezeroone.tech': 'https://uat-checkout.fivezeroone.top',
+                default: 'https://uat-cashier-api.haipay.top'
+            }
+        },
+        dev: {
+            baseURL: 'http://192.168.1.101:8095'
+        }
+    };
+
+    // 确定环境类型
+    let env;
+    if (ENV_CONFIG.prod.matchOrigins.includes(origin)) {
+        env = 'prod';
+    } else if (ENV_CONFIG.test.matchRule(origin)) {
+        env = 'test';
+    } else {
+        env = 'dev';
     }
-    if(env=='test'){  //测试环境
-      if(origin ==='https://uat.payment-cashier.com') {
-         baseURL = 'https://uat-checkout.payment-cashier.com'
-      }else if( origin === 'https://uat-cashier.fivezeroone.tech') {
-        baseURL = 'https://uat-checkout.fivezeroone.top'
-      }else {
-        baseURL = 'https://uat-cashier-api.haipay.top' //测试环境
-      }
+
+    // 获取对应环境的baseURL
+    let baseURL;
+    const currentEnvConfig = ENV_CONFIG[env];
+    
+    if (env === 'dev') {
+        baseURL = currentEnvConfig.baseURL;
+    } else {
+        baseURL = currentEnvConfig.baseURLMap[origin] || currentEnvConfig.baseURLMap.default;
     }
-    if(env=='prod'){
-      if(origin == 'https://www.payment-cashier.com' || origin == 'https://cashier.gcash.tech') {
-         baseURL = 'https://checkout.payment-cashier.com' //正式环境新地址
-      } else if(origin == 'https://cashier.fivezeroone.tech') {
-         baseURL = 'https://checkout.fivezeroone.top' //正式环境新地址
-      } else {
-         baseURL = 'https://checkout.haipay.top' //正式环境新地址
-      }
-    }
+
     return {
         env,
         baseURL
