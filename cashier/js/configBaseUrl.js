@@ -1,7 +1,7 @@
 // configManager.js
 function getConfig() {
     const origin = location.origin;
-    const env = origin == 'https://cashier.haipay.top' ? 'prod' : origin == 'https://www.payment-cashier.com' ? 'prod': origin == 'https://cashier.fivezeroone.tech' ? 'prod': origin.indexOf('uat') > -1 ? 'test' : 'dev'
+    const env = origin == 'https://cashier.haipay.top' ? 'prod' : origin == 'https://www.payment-cashier.com' ? 'prod': origin == 'https://cashier.fivezeroone.tech' ? 'prod': origin == 'https://cashier.gcash.tech' ? 'prod' : origin.indexOf('uat') > -1 ? 'test' : 'dev'
     
     let baseURL = '';
    if(env=='dev'){
@@ -17,7 +17,7 @@ function getConfig() {
       }
     }
     if(env=='prod'){
-      if(origin == 'https://www.payment-cashier.com') {
+      if(origin == 'https://www.payment-cashier.com' || origin == 'https://cashier.gcash.tech') {
          baseURL = 'https://checkout.payment-cashier.com' //正式环境新地址
       } else if(origin == 'https://cashier.fivezeroone.tech') {
          baseURL = 'https://checkout.fivezeroone.top' //正式环境新地址
