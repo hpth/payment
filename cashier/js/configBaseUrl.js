@@ -7,12 +7,14 @@ function getConfig() {
                 'https://cashier.haipay.top',
                 'https://www.payment-cashier.com',
                 'https://cashier.fivezeroone.tech',
-                'https://cashier.gcash.tech'
+                'https://cashier.gcash.tech',
+                'https://cashier.payment-plus.com'
             ],
             baseURLMap: {
                 'https://www.payment-cashier.com': 'https://checkout.payment-cashier.com',
                 'https://cashier.fivezeroone.tech': 'https://checkout.fivezeroone.top',
                 'https://cashier.gcash.tech': 'https://checkout.gcash.tech',
+                'https://cashier.payment-plus.com': 'https://checkout.payment-plus.com',
                 default: 'https://checkout.haipay.top'
             }
         },
