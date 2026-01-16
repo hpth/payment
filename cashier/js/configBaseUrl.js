@@ -23,6 +23,9 @@ function getConfig() {
             baseURLMap: {
                 'https://uat.payment-cashier.com': 'https://uat-checkout.payment-cashier.com',
                 'https://uat-cashier.fivezeroone.tech': 'https://uat-checkout.fivezeroone.top',
+                'https://uat-cashier.doublewingames.com': 'https://uat-checkout.doublewingames.com',
+                'https://uat-cashier.flyflymu.com': 'https://uat-checkout.flyflymu.com',
+                'https://uat-cashier.fivezeroone.top': 'https://uat-checkout.fivezeroone.top',
                 default: 'https://uat-cashier-api.haipay.top'
             }
         },
