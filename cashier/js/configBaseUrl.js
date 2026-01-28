@@ -15,6 +15,7 @@ function getConfig() {
                 'https://cashier.fivezeroone.tech': 'https://checkout.fivezeroone.top',
                 'https://cashier.gcash.tech': 'https://checkout.gcash.tech',
                 'https://cashier.payment-plus.com': 'https://checkout.payment-plus.com',
+                'https://cashier.doublewingames.com': 'https://checkout.doublewingames.com',
                 default: 'https://checkout.haipay.top'
             }
         },
