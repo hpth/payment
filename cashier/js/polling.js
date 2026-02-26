@@ -32,12 +32,12 @@ async function polling(orderNo, baseURL) {
     } else {
        clearTimeout(pollingST);
         count = 0;
-        alert(res.data.msg);
+        alert(res.msg);
     }
     } else {
         clearTimeout(pollingST);
         count = 0;
-        alert(res.data.msg);
+        alert(res.msg);
     }
 }
 
