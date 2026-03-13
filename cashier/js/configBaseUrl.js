@@ -8,7 +8,8 @@ function getConfig() {
                 'https://www.payment-cashier.com',
                 'https://cashier.fivezeroone.tech',
                 'https://cashier.gcash.tech',
-                'https://cashier.payment-plus.com'
+                'https://cashier.payment-plus.com',
+                'https://cashier.fivezeroone.top'
             ],
             baseURLMap: {
                 'https://www.payment-cashier.com': 'https://checkout.payment-cashier.com',
@@ -16,6 +17,7 @@ function getConfig() {
                 'https://cashier.gcash.tech': 'https://checkout.gcash.tech',
                 'https://cashier.payment-plus.com': 'https://checkout.payment-plus.com',
                 'https://cashier.doublewingames.com': 'https://checkout.doublewingames.com',
+                'https://cashier.fivezeroone.top': 'https://checkout.haipay.top',
                 default: 'https://checkout.haipay.top'
             }
         },
