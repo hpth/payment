@@ -31,3 +31,6 @@ cashier/crypto/BSC.svg： 文件在项目中的位置
 ```shell
 curl -X POST https://purge.jsdelivr.net/  -H "Content-Type: application/json"  -d '{"path": ["/gh/hpth/payment/cashier/js/configBaseUrl.js"]}'
 ```
+
+# 把js混淆诚min.js
+把js文件上传到https://obfuscator.io/legacy-playground，“Obfuscate”允许后赋值代码即可
