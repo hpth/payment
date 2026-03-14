@@ -33,4 +33,4 @@ curl -X POST https://purge.jsdelivr.net/  -H "Content-Type: application/json"  -
 ```
 
 # 把js混淆诚min.js
-把js文件上传到https://obfuscator.io/legacy-playground，“Obfuscate”允许后赋值代码即可
+把js文件上传到 https://obfuscator.io/legacy-playground ，“Obfuscate”允许后赋值代码即可
